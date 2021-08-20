@@ -1,0 +1,22 @@
+header{
+    background-color: var(--color-header);
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+header .logo{
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+
+}
+nav .menu{
+    margin-bottom: 10px;
+}
+nav ul li a{
+    color: rgb(211, 204, 204);
+    text-transform: uppercase;
+}
